@@ -152,9 +152,14 @@ body {
 }
 
 .actions a {
-  display: inline;
-  margin-right: calc(var(--link-gap) * 4);
+  display: block;
+  margin-right: 0;
+  margin-bottom: var(--link-gap);
   color: var(--link-lime);
+  text-decoration: none;
+}
+
+.actions .link-text {
   text-decoration: underline;
 }
 
