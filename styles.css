@@ -209,6 +209,10 @@ body {
   margin-bottom: 0;
 }
 
+.highlight {
+  color: var(--link-lime);
+}
+
 @media (max-width: 768px) {
   .site-title {
     font-size: var(--site-title-size);
